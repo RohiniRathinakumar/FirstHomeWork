@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 580822000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-14T18:14:41.842Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1501092200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BankAndCashSteps.beforReRun()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User should be able to login with valid credentials",
+        "description": "\tand open a new account\t",
+        "id": "techfios-other-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 633928000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BankAndCashSteps.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 622809200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"abc123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.BankAndCashSteps.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 754807600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_clicks_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34006200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2055915200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on BankAndCash",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_clicks_on_BankAndCash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282380000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on NewAccount",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_clicks_on_NewDeposoit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599491700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters information on add new accounts page.",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_enters_in_the_field_in_accounts_page(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Rohini\u0027s Account"
+                ]
+              },
+              {
+                "cells": [
+                  "My Savings account"
+                ]
+              },
+              {
+                "cells": [
+                  "$500000"
+                ]
+              },
+              {
+                "cells": [
+                  "2324454546767"
+                ]
+              },
+              {
+                "cells": [
+                  "Rathinakumar"
+                ]
+              },
+              {
+                "cells": [
+                  "346567772"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1401339000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on submit",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_clicks_on()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31708600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be able to validate Account Created Successfully",
+            "match": {
+              "location": "steps.BankAndCashSteps.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Other billing login page functionality validation",
+    "description": "",
+    "id": "techfios-other-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/TechfiosBankAndCash.feature",
+    "tags": []
+  }
+]
